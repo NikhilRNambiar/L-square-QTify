@@ -1,5 +1,5 @@
 .hero {
-    background-color: black;
+    
     height: 270px;
     display: flex;
     justify-content: center;
@@ -9,8 +9,13 @@
   }
   
 .image{
-    width:799px;
+    width:212px;
     height:212px;
     top:103px;
-    margin-left: 150px;
+    
+}
+
+.head{
+  color:white;
+  margin-left:120px;
 }

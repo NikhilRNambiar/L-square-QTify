@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  font-family: 'Poppins', sans-serif; 
+  
 }

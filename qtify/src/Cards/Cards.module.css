@@ -8,6 +8,8 @@
     flex-direction: column;
     /* justify-content: space-between; */
     border-radius: 10px 10px 0px 0px;
+    margin-left: 25px;
+    
   }
   
   .media {
@@ -33,6 +35,8 @@
     width:130px;
     height:21px;
     padding-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
 
   }
   

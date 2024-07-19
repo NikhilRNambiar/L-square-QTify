@@ -13,6 +13,7 @@ function Section({ title, apiEndpoint }) {
     const fetchAlbums = async () => {
         try {
             const response = await axios.get(apiEndpoint);
+            console.log(response.data);
             setAlbums(response.data);
         } catch (error) {
             console.error('Error fetching the albums:', error);
@@ -37,7 +38,7 @@ function Section({ title, apiEndpoint }) {
             </div>
             {collapsed ? (
                 <Grid container spacing={3}>
-                    {albums.slice(0, collapsed ? 7 : albums.length).map(album => (
+                    {albums.map(album => (
                         <Grid item xl={1.71} key={album.id}>
                             <Cards album={album} />
                         </Grid>
